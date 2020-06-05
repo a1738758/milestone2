@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Roster System Main Page</title>
+<link href="css/index.css" rel='stylesheet' type='text/css' />
+<link href="css/shoplist.css" rel='stylesheet' type='text/css' />
+<link rel="start icon" href="images/resize_png_new.png"  >
+</head>
+
+<body>
+<!------ start header top------->
+<div class="top1">
+  <div class="top-left">
+    <p> <a href="goodslist.html" target="_blank">Roster System</a></p>
+  </div>
+  <div class="top-middle">
+    <marquee id="move">
+    WelCome to Task/Chore Roster System,find the fittest work for you 
+    </marquee>
+  </div>
+  <div class="top-right">
+    <ul>
+      <li> <a href="login_user.html" target="_blank">Login</a></li>
+      |
+      <li> <a href="register.html" target="_blank">Register</a></li>
+    </ul>
+  </div>
+</div>
+
+<!------ end header top-------> 
+<!-----start header logo------->
+<div class="header1">
+  <div id="logo"><a href="index.html"> <img src="images/logo.jpg" alt="Roster System Logo"  title="Roster System"/> </a></div>
+  <div class="search">
+    <form action="#" method="post" id="sitesearch">
+      <fieldset>
+        <input type="text" value="Search for a situable work" onfocus="this.value=(this.value=='Search)? '' : this.value ;" />
+        <input type="image" src="images/search.png" id="search" alt="Search" />
+      </fieldset>
+    </form>
+  </div>
+  <div class="icon1"> <a href=""><img  class="img1" src="images/love.png"  title=""/> </a> </div>
+  <div class="icon2"><a href=""> <img  class="img1"  src="images/bag.png" title="" /> </a> </div>
+  <div class="icon3"> <a  class="register_user" href="register.html" target="_blank">Register for new acc &gt;</a> </div>
+</div>
+<!-----end header logo-------> 
+
+<!-------- start header menu--------->
+<div class="header-menu">
+  <ul>
+    <li><a class="a1" href="index.html">Home Page</a> </li>
+    <li><a class="a2" href="">New work</a>
+    </li>
+    <li><a class="a3" href="">Alleviation </a>
+      <ul>
+        <li><a href="">sweeping</a></li>
+        <li><a href="">mopping</a></li>
+        <li><a href="">cleaning</a></li>
+      </ul>
+    </li>
+    <li><a class="a4" href="">Clerical</a>
+      <ul>
+        <li><a href="">Excel</a></li>
+        <li><a href="">PPT</a></li>
+        <li><a href="">printing</a></li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+<!--------end header menu---------> 
+
+<!-------- start content1--------->
+<div class="container">
+  <div class="slider">
+    <div class="area">
+      <div id=js class="js">
+        <div class="box01"> <img onClick="location.href='goodslist.html'"  src="images/banner_01.jpg"> <img onClick="location.href='cart.html'"  style="DISPLAY: none"  src="images/banner_02.jpg"> <img onClick="location.href='details.html'" style="DISPLAY: none"  src="images/banner_03.jpg"> <img onClick="location.href='details.html'" style="DISPLAY: none"   src="images/banner_04.jpg"> <img onClick="location.href='details.html'" style="DISPLAY: none"   src="images/banner_05.jpg"> </div>
+        <div class="bg"></div>
+        <div id=jsNav class=jsNav> <a class="trigger imgSelected" href="javascript:void(0)">1</a> <a class="trigger" href="javascript:void(0)">2</a> <a class="trigger" href="javascript:void(0)">3</a> <a class="trigger" href="javascript:void(0)">4</a> <a class="trigger" href="javascript:void(0)">5</a> </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-right">
+    <div class="container1">
+      <div class="pic-sale1"> <img src="images/sale (2).jpg" title="Software engineer" /> </div>
+      <h4><a href="goodslist.html">Software engineer</a></h4>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;Engaged in program development
+      </p>
+    </div>
+    <br />
+    <div class="container2">
+      <div class="pic-sale2"> <img src="images/sale (4).jpg" title="Typist" /></div>
+      <br />
+      <h4><a href="goodslist.html">Typist</a></h4>
+      <p>Type on the keyboard
+      </p>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="container3">
+      <div class="pic-sale3"> <img src="images/sale (1).jpg"  title="Cleaner"/> </div>
+      <h4><a href="goodslist.html">Cleaner</a></h4>
+      <p>Clean office rooms
+      </p>
+    </div>
+  </div>
+</div>
+<!--------end content1---------> 
+
+
+<!--------start footer-------->
+
+<div class="footer2">
+  <p>Task/Chore Roster System .<br />
+    All Rights Reserved</p>
+</div>
+<!-------- end footer ---------> 
+
+<script type="text/javascript"  src="script/jquery-1.4.2.min.js"></script> 
+<script type="text/javascript" src="script/js.js"></script> 
+<script type="text/javascript">
+$(document).ready(function(){
+  $(".area").hover(function(){
+	  $(this).find(".qq").show(100);}
+	  ,function(){
+		$(this).find(".qq").hide(100);
+	});
+});
+</script>
+</body>
+</html>
